@@ -23,16 +23,25 @@ export const globalStyles = StyleSheet.create({
   },
   contactsItem: {
     flexDirection: "row",
-    alignContent: "center",
+    justifyContent: "space-between",
+    alignItems: "center",
     marginBottom: 20,
     borderRadius: 18,
     backgroundColor: "white",
     padding: 10,
   },
+  contactsName: {
+    flexDirection: "row",
+    alignItems: "center",
+  },
+  removeButton: {
+    backgroundColor: "red",
+    padding: 2,
+    borderRadius: 100,
+    marginRight: 10,
+  },
   listContainer: {
     flex: 1,
-    // backgroundColor: "green",
-    // marginTop: 10,
   },
   floatingButtonContainer: {
     position: "absolute",
@@ -47,5 +56,12 @@ export const globalStyles = StyleSheet.create({
     alignItems: "center",
     justifyContent: "center",
     elevation: 4,
+  },
+  inputForm: {
+    marginBottom: 10,
+    paddingHorizontal: 8,
+    paddingVertical: 6,
+    borderBottomWidth: 1,
+    borderBottomColor: "#ddd",
   },
 });
